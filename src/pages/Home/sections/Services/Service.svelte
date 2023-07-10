@@ -6,6 +6,12 @@
 </script>
 
 <div class="Service">
-    <h3>{service.title}</h3>
     <Markdown text={service.content}/>
 </div>
+
+<style>
+    .Service {
+        padding: 1rem;
+        text-align: left;
+    }
+</style>
