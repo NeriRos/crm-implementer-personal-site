@@ -14,7 +14,7 @@
 
 <style>
     .Hero {
-        flex: 1;
+        height: 100vh;
         background-image: url('https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b3b6b0b0b5b0b0b0b0b0b0b0b0b0b0b&auto=format&fit=crop&w=1950&q=80');
         background-size: cover;
         background-position: center;
