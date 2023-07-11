@@ -24,4 +24,19 @@
         flex-direction: column;
         align-items: center;
     }
+
+    :global(input), :global(select), :global(textarea) {
+        background: var(--background);
+        color: var(--foreground);
+
+        border: 1px solid var(--foreground);
+        border-radius: var(--border-radius);
+
+        padding: 1rem;
+    }
+
+    :global(input::placeholder), :global(select::placeholder), :global(textarea::placeholder) {
+        color: var(--foreground);
+        opacity: 1;
+    }
 </style>
