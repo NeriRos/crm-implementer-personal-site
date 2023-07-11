@@ -4,6 +4,7 @@
     import {Approach} from "./sections/Approach";
     import {Contact} from "./sections/Contact";
     import {Packages} from "./sections/Packages";
+    import Credits from "./sections/Credits/Credits.svelte";
 </script>
 
 <div class="Home">
@@ -18,6 +19,7 @@
     </div>
     <div class="Home__footer">
         <Contact/>
+        <Credits/>
     </div>
 </div>
 <!--<About />-->
@@ -31,7 +33,7 @@
         padding: 1rem;
     }
 
-    .Home__footer {
-        padding: 2rem 0 4rem 0;
+    :global(.Contact) {
+        margin-bottom: 3rem;
     }
 </style>

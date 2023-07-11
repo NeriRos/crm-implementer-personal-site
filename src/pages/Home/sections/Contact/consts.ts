@@ -1,6 +1,7 @@
 export const TEXTS = {
     title: "Contact",
     submit: "Submit",
+    thanks: "Thanks for contacting us, we'll get back to you soon!",
 }
 
 

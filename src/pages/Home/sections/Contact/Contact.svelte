@@ -30,12 +30,17 @@
 
 <div class="Contact">
     <h2>{TEXTS.title}</h2>
+
     <Form on:submit={submit}>
         <input autocomplete="name" name="name" placeholder="Full Name" required>
         <input autocomplete="tel" type="tel" name="phone" placeholder="Phone" required>
         <input autocomplete="email" type="email" name="email" placeholder="Email" required>
         <button type="submit">{TEXTS.submit}</button>
     </Form>
+
+    {#if didSubmit}
+        <p>{TEXTS.thanks}</p>
+    {/if}
 
     <Congratulations durationSeconds={5} toggle={confettiTimes}/>
 </div>
