@@ -1,8 +1,8 @@
 <script lang="ts">
     import Form from "../../../../components/Form/Form.svelte";
     import type {SubmitResult} from "../../../../components/Form/Form";
-    import {TEXTS} from "./consts";
-    import Congratulations from "../../../../components/Congratulations/Congratulations.svelte";
+    import {TEXTS, WEBHOOK_URL} from "./consts";
+    import {Congratulations} from "../../../../components/Congratulations";
 
     let confettiTimes = -1;
     let didSubmit = false;
