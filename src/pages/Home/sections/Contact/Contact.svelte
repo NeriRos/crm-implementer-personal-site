@@ -16,7 +16,14 @@
 
         activateCongratulations();
 
-        console.log(submitResult.detail.data);
+        fetch(WEBHOOK_URL, {
+            method: "POST",
+            body: JSON.stringify(submitResult.detail.data),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+
         $: didSubmit = true;
     }
 </script>
