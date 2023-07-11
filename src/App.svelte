@@ -1,5 +1,9 @@
 <script lang="ts">
     import {Home} from './pages/Home'
+
+    import {inject} from '@vercel/analytics';
+
+    inject({mode: import.meta.env.DEV ? 'development' : 'production'});
 </script>
 
 <main data-color-scheme="dark">
