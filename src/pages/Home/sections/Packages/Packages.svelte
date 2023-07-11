@@ -37,9 +37,9 @@
         justify-content: center;
     }
 
-    @media screen and (min-width: 450px) {
+    @media screen and (min-width: 430px) {
         .Packages__list :global(.Package + .Package) {
-            margin-left: 1rem;
+            margin: 1rem;
         }
     }
 </style>
