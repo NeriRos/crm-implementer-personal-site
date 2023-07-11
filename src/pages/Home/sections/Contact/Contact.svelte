@@ -2,9 +2,22 @@
     import Form from "../../../../components/Form/Form.svelte";
     import type {SubmitResult} from "../../../../components/Form/Form";
     import {TEXTS} from "./consts";
+    import Congratulations from "../../../../components/Congratulations/Congratulations.svelte";
+
+    let confettiTimes = -1;
+    let didSubmit = false;
+
+    const activateCongratulations = () => {
+        $: confettiTimes += 1;
+    }
 
     const submit = (submitResult: SubmitResult<any>) => {
+        if (didSubmit) return;
+
+        activateCongratulations();
+
         console.log(submitResult.detail.data);
+        $: didSubmit = true;
     }
 </script>
 
@@ -16,15 +29,11 @@
         <input autocomplete="email" type="email" name="email" placeholder="Email" required>
         <button type="submit">{TEXTS.submit}</button>
     </Form>
+
+    <Congratulations durationSeconds={5} toggle={confettiTimes}/>
 </div>
 
 <style>
-    .Contact {
-        padding: 1rem;
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
     input {
         display: block;
         margin-bottom: 0.5rem;
