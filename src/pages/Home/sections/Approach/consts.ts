@@ -8,16 +8,19 @@ export const TEXTS = {
 
 export const ITEMS = [
     {
+        
         title: "Research",
         description: "Analyze your exisitng processes and understand your pain points",
         imageUrl: Item1Image
     },
     {
+        
         title: "Brainstorm",
         description: "Present my findings and decide together on the priorities and how we tackle issues",
         imageUrl: Item2Image
     },
     {
+        
         title: "Automate",
         description: "Implement best practices and automate complex processes",
         imageUrl: Item3Image
