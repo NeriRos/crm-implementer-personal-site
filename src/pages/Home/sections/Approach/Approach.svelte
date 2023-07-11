@@ -17,10 +17,6 @@
 </div>
 
 <style>
-    .Approach {
-        padding: 1rem;
-    }
-
     .Approach__items {
         display: flex;
         flex-wrap: wrap;
