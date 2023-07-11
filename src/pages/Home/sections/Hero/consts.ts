@@ -1,6 +1,6 @@
 export const TEXTS = {
     title: {
-        first: "Avital",
+        first: "Simply",
         second: "Mush",
     },
     subtitle: "Keep it simple, keep it mush",
