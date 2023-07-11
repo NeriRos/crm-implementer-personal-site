@@ -11,9 +11,13 @@
 </div>
 
 <style>
+    .Approach__items__item {
+        max-width: 200px;
+        text-align: left;
+    }
+
     .Approach__items__item:not(:last-child, :first-child) {
         padding: 0 1rem;
-        text-align: left;
     }
 
     h3 {
