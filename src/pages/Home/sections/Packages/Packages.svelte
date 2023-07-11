@@ -1,5 +1,4 @@
 <script lang="ts">
-
     import {PACKAGES, TEXTS} from "./consts";
     import Package from "./Package.svelte";
 </script>

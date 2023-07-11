@@ -7,6 +7,7 @@ export const CURRENCY = "$"
 export const PACKAGES = [
     {
         title: "Basic",
+        description: "For small teams or office",
         price: 100,
         pricePeriod: "month",
         features: [
@@ -17,6 +18,7 @@ export const PACKAGES = [
     },
     {
         title: "Basic",
+        description: "For small teams or office",
         price: 100,
         pricePeriod: "month",
         features: [
