@@ -20,6 +20,9 @@ dependencies:
   sass:
     specifier: ^1.63.6
     version: 1.63.6
+  siema:
+    specifier: ^1.5.1
+    version: 1.5.1
   unified:
     specifier: ^10.1.2
     version: 10.1.2
@@ -1130,6 +1133,10 @@ packages:
       chokidar: 3.5.3
       immutable: 4.3.0
       source-map-js: 1.0.2
+
+  /siema@1.5.1:
+    resolution: {integrity: sha512-BUNFdTSbC9/2gA6r6teBY9B8O/XZOUz8kVyttpsbq4gbHF9PidUDzs6aPtiObhV4KoEuPQdhRvK5hPPi9lgSTg==}
+    dev: false
 
   /sorcery@0.11.0:
     resolution: {integrity: sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==}

@@ -6,6 +6,7 @@
     import {Packages} from "./sections/Packages";
     import Credits from "./sections/Credits/Credits.svelte";
     import WhatsAppButton from "../../components/WhatsAppButton/WhatsAppButton.svelte";
+    import Testimonials from "./sections/Testimonials/Testimonials.svelte";
 </script>
 
 <div class="Home">
@@ -15,7 +16,7 @@
     <div class="Home__content">
         <Services/>
         <Packages/>
-        <!--<Projects />-->
+        <Testimonials/>
         <Approach/>
     </div>
     <div class="Home__footer">

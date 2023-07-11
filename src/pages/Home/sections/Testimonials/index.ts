@@ -1,0 +1,1 @@
+export {default as Approach} from './Testimonials.svelte';

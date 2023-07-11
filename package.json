@@ -24,6 +24,7 @@
     "remark-parse": "^10.0.2",
     "remark-rehype": "^10.1.0",
     "sass": "^1.63.6",
+    "siema": "^1.5.1",
     "unified": "^10.1.2"
   }
 }
