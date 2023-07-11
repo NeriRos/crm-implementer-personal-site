@@ -34,6 +34,8 @@
 
     .Home__content {
         padding: 1rem;
+        max-width: 500px;
+        margin: auto;
     }
 
     :global(.Contact) {
