@@ -29,6 +29,8 @@
         border: 1px solid var(--foreground);
         border-radius: var(--border-radius);
         margin: 1rem 0;
+        width: 100%;
+        flex: 1;
     }
 
     .Package__price {

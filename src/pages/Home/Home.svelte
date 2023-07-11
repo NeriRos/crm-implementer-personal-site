@@ -29,7 +29,7 @@
 
 <style>
     .Home__content :global( > *) {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     .Home__content {
