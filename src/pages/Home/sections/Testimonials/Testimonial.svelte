@@ -1,11 +1,13 @@
 <script lang="ts">
     export let author: string;
     export let text: string;
-    export let imageUrl: string;
+    export let imageUrl: string | undefined;
 </script>
 
 <div class="Testimonial__items__item">
-    <img src={imageUrl} alt={author}/>
+    {#if imageUrl}
+        <img src={imageUrl} alt={author}/>
+    {/if}
     <h3>{author}</h3>
     <div>{text}</div>
 </div>
