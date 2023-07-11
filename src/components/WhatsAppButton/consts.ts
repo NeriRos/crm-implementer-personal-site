@@ -1,0 +1,1 @@
+export const WHATSAPP_URL = "https://wa.me/972546342580"

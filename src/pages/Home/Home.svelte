@@ -5,6 +5,7 @@
     import {Contact} from "./sections/Contact";
     import {Packages} from "./sections/Packages";
     import Credits from "./sections/Credits/Credits.svelte";
+    import WhatsAppButton from "../../components/WhatsAppButton/WhatsAppButton.svelte";
 </script>
 
 <div class="Home">
@@ -21,6 +22,7 @@
         <Contact/>
         <Credits/>
     </div>
+    <WhatsAppButton/>
 </div>
 <!--<About />-->
 
