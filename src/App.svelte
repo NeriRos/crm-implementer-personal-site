@@ -2,12 +2,13 @@
     import {Home} from './pages/Home'
 </script>
 
-<main>
+<main data-color-scheme="dark">
     <Home/>
 </main>
 
 <style>
     main {
-        height: 100dvh;
+        color: var(--foreground);
+        background-color: var(--background);
     }
 </style>
