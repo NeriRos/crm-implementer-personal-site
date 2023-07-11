@@ -13,15 +13,19 @@
     button {
         background: none;
         border: none;
-        border-bottom: 2px solid white;
         border-radius: 0;
         margin: 0;
         color: #ccc;
     }
 
+    button:active, button {
+        border: none;
+        outline: none;
+    }
+
     .selected {
-        border-bottom: 2px solid teal;
-        color: #333;
+        color: white;
+        border-bottom: 2px solid white;
     }
 </style>
 
